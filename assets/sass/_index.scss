@@ -22,7 +22,7 @@
 }
 html {
  // background-image: url(/assets/images/bg1.jpg);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-size: 62.5% !important;
@@ -929,6 +929,14 @@ body {
       width: 350px;
       left: -50px;
       top: -450px;
+    }
+    .member-img{
+      p{
+        font-size: 1rem;
+        &::before{
+          height: 30px;
+        }
+      }
     }
   }
 

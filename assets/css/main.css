@@ -870,6 +870,12 @@ body {
     left: -50px;
     top: -450px;
   }
+  .voice .member-img p {
+    font-size: 1rem;
+  }
+  .voice .member-img p::before {
+    height: 30px;
+  }
   .footer {
     background-color: white;
   }
