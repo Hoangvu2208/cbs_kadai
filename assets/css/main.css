@@ -87,7 +87,6 @@
 }
 
 html {
-  background-image: url(/assets/images/bg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -692,19 +691,21 @@ body {
 }
 .footer .end-page .footer-logo {
   height: 16vh;
+  position: relative;
   display: flex;
+  top: -30px;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
 }
 .footer .end-page .footer-logo img {
-  width: 300px;
+  width: 250px;
 }
 .footer .end-page .footer-logo p {
   color: white;
   position: relative;
   top: -20px;
-  left: -75px;
+  right: 90px;
 }
 .footer .end-page .link {
   display: flex;
@@ -888,11 +889,14 @@ body {
   .footer .link a span {
     display: none;
   }
-  .footer .footer-logo img {
+  .footer .footer-logo {
     position: relative;
-    left: -120px;
-    top: 30px;
-    width: 200px;
+  }
+  .footer .footer-logo img {
+    width: 200px !important;
+    position: absolute;
+    left: -35px;
+    bottom: -20px;
   }
   .footer .footer-logo p {
     display: none;
@@ -903,6 +907,8 @@ body {
     margin-bottom: -1rem;
     z-index: 200;
     box-shadow: 0px 0px 8px 0px rgb(83, 62, 62);
+    position: relative;
+    top: 30px;
   }
   .footer h2 {
     display: none;
