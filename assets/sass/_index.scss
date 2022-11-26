@@ -768,8 +768,9 @@ body {
     display: none;
   }
   .sidebar {
-    width: 100vw;
-    left: 100%;
+    width: 0;
+    left: 120%;
+    
 
     #close-btn {
       position: absolute;
@@ -781,6 +782,8 @@ body {
     // active
     &.active {
       left: 0;
+      width: 100vw;
+      
     }
   }
 
