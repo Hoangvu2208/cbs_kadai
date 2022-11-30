@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image:url('assets/images/bg1.jpg');">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,6 +17,17 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
+
+    <style>
+      html{
+        background-image: url('assets/images/bg1.jpg');
+      }
+      @media only screen and (max-width: 576px) {
+        html{
+          background-image: url('assets/images/bg2.jpg');
+        }
+      }
+    </style>
     <header class="header" id="header">
       <div class="menu">
         <button class="fa fa-bars btn-menu" id="menu-btn"></button>
